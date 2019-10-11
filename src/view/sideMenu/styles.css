@@ -1,0 +1,76 @@
+.menu{
+    width: 25%;
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2% 3%;
+    /* justify-content: center; */
+    color: #b9b9b9;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 5px 0px 20px #000;
+}
+.menu button{
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    border: 2px solid #b9b9b9;
+    margin-top: 5%;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #b9b9b9;
+}
+.menu button:hover{
+    background-color: #b9b9b9;
+    box-shadow: inset 0px 0px 10px #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.menuItens{
+    transition: 0.5s;
+    width: 100%;
+    height: 100px; 
+    background-color: #b9b9b9;
+    display: none;
+    
+}
+
+.menuItens button{
+    border: none;
+    background-color: #b9b9b9;
+    color: #000;
+}
+
+.menuVisivel{
+    display: block;
+}
+.botaoAcionado{
+    background-color: #b9b9b9;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.botaoAcionado:hover{
+    
+    box-shadow: inset 0px 0px 10px #000000;
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 0.45em;
+    color: #fff;
+    position: fixed;
+    bottom: 1%;
+    font-weight: bold;
+}
+
+.hide-menu{
+    left: 0;
+    top:0;
+    background-color: #fff;
+    background-image: url("../../images/next.png");
+}
